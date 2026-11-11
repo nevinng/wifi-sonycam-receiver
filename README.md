@@ -42,8 +42,10 @@ This app does not link these projects. The Sony handshake and the USB host recor
 - [Sony-PMCA-RE](https://github.com/ma1co/Sony-PMCA-RE) — `pmca/usb/sony.py` names the ExtBackupCommunicator commands. Command 2 asks the camera to send photos. Command 5 is the power-off after the save.
 - [sony-pm-alt](https://github.com/falk0069/sony-pm-alt) — how Send to Computer announces itself, and the computer identity of eight zero bytes, `FF FF`, then the Mac address. [`sony-guid-setter.c`](https://github.com/falk0069/sony-pm-alt/blob/master/sony-guid-setter.c), from Clemens Fruhwirth, is the USB write that **Set this Mac** follows.
 
-## License
+## Disclaimer
 
 [MIT](LICENSE). You may use, study, and change this project. It is provided as is, with no warranty, and the authors bear no liability for damage, data loss, or any other consequence of building or using it.
 
 The packet layouts and command numbers in References come from other projects. This repository does not include their source. [libgphoto2](https://github.com/gphoto/libgphoto2) and [`sony-guid-setter.c`](https://github.com/falk0069/sony-pm-alt/blob/master/sony-guid-setter.c) are LGPL-2.1. [Sony-PMCA-RE](https://github.com/ma1co/Sony-PMCA-RE) is MIT.
+
+Sony and α are trademarks of Sony Group Corporation. This project is not affiliated with or endorsed by Sony.
